@@ -1,0 +1,43 @@
+# Xcode
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+.swiftpm/
+
+# Cocoapods (if using)
+Pods/
+Podfile.lock
+Podfile
+
+# Carthage (if using)
+Carthage/Build/
+Carthage/Checkouts/
+Carthage/Pods/
+
+# Build files
+build/
+*.o
+*.pyc
+*.class
+*.log
+*.dat
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE specific
+.idea/
+.vscode/
+
+# Other files you don't want to track
+.env
